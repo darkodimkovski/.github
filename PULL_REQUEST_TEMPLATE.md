@@ -2,6 +2,10 @@
 
 ## General Information
 
+### First Production Deployment
+- [ ] Yes
+- [ ] No
+
 ### Type of Change
 - [ ] Visual changes only
 - [ ] Calculation changes
@@ -10,17 +14,13 @@
 - [ ] Security (RLS) changes
 - [ ] Refresh configuration changes
 
-### First Production Deployment
-- [ ] Yes
-- [ ] No
-
 ### Business Justification
 
 Describe the purpose of this deployment and expected business impact.
 
 ---
 
-## Data Sources & Connectivity
+## Data Sources & Connectivity (applicable for the first time deployment or Data source changes)
 
 List all data sources used by this solution.
 
@@ -28,11 +28,11 @@ List all data sources used by this solution.
 |-------------|------------------------|---------------|
 |             |                        |               |
 
-### Refresh Schedule
+### Refresh Schedule (applicable for the first time deployment or Refresh configuration changes)
 
 Example: Daily at 06:00 UTC
 
-### Estimated Refresh Duration
+### Estimated Refresh Duration (applicable for the first time deployment or Semantic model/Data source changes)
 
 Example: 25 minutes
 
@@ -40,21 +40,21 @@ Example: 25 minutes
 
 ## Security
 
-### RLS Changes
+### RLS Changes (applicable for the first time deployment or RLS changes)
 - [ ] No RLS
 - [ ] Existing RLS unchanged
 - [ ] New/Updated RLS included
 
 If RLS was changed, describe the roles.
 
-### Production Access
+### Production Access (applicable for the first time deployment or Security changes)
 
 List Azure AD groups or users requiring access after deployment.
 
 ---
 
 
-## Deployment Checklist
+## Deployment Checklist (mandotiry for each deployment)
 
 ### Connectivity
 - [ ] All data sources documented
@@ -83,8 +83,6 @@ List Azure AD groups or users requiring access after deployment.
 
 ### Testing
 - [ ] Solution fully tested in DEV workspace
-- [ ] Deployment impact reviewed
-- [ ] Rollback approach understood
 
 ---
 
