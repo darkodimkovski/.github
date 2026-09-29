@@ -1,0 +1,15 @@
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: What would you like to discuss about the Power BI or Fabric solution?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add relevant links and non-sensitive background. Do not share credentials or private data.
+    validations:
+      required: false

@@ -1,0 +1,6 @@
+{
+  "name": "Change whitespace check",
+  "description": "Check pull request changes for whitespace errors.",
+  "iconName": "octicon checklist",
+  "categories": ["General"]
+}

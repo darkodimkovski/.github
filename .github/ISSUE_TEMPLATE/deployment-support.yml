@@ -1,0 +1,38 @@
+name: Power BI / Fabric deployment support
+description: Request help with a deployment or report a deployment problem.
+title: "[Deployment support] "
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository or solution
+      description: Link to the affected repository or name the solution.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Deployment
+        - Data source or gateway
+        - Refresh
+        - Semantic model
+        - Report
+        - Access or RLS
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What do you need help with?
+      description: Describe the issue and what you expected to happen. Do not include credentials or sensitive data.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Steps and evidence
+      description: Add reproduction steps, non-sensitive error messages, and links to relevant runs or pull requests.
+    validations:
+      required: false
